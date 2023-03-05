@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo {
+    width: 10%;
+    margin-left: 8%;
+}
+
+.nav-link p{
+    color: green;
+    font-size: .8rem;
+}
+
+.underline::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #f88808;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.underline:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.text-wrapper{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: #08c708;
+}
+
+.text-wrapper h1{
+    font-size: 3em;
+    font-family: "Baloo Da 2", serif;
+    font-weight: 600;
+}
+
+.text-wrapper p {
+    font-family: "Josefin Slab", serif;
+    font-size: 3em;
+    margin-bottom: 2rem
+}
+
+.text-wrapper h2 {
+    font-family: "Josefin Slab", serif;
+    font-size: 2em;
+    margin-bottom: 2rem
+}
+
+.text-wrapper button{
+    font-family: "Muli", serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #f88808;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 32%;
+}
+
+.text-wrapper button:hover {
+    opacity: 0.8;
+    color: #000;
+}
+
+.wrapper-contact {
+    display: flex;
+    position: absolute;
+    top: 82%;
+    left: 15%;
+}
+
+#contact-p1 {
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #08c708;
+}
+
+#contact-p2 {
+    padding: 25px;
+    background-color: #f88808;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.header-main {
+    background-color: #08c708;
+    background-image: radial-gradient(rgb(85, 247, 85) 5%, transparent 10%);
+    background-size: 5px 10px;
+
+    width: 100%;
+    min-height: 130vh;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.item-main {
+    background: #fff;
+    padding: 90px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 180px;
+    left: 110px;
+    margin: 8px;
+    height: 200px;
+}
+
+.img-header-main {
+    width: 100%;
+    
+}
+
+.text-main {
+    position: relative;
+    right: 64%;
+    top: 180px;
+}
+
+#text-main-p1 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.text-main button {
+    font-family: "Muli", serif;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #f88808;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-main button:hover {
+    opacity: 0.8;
+    color: #000;
+}
+
+.wrapper-information {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+
+.wrapper-position {
+    margin-top: 4%;
+}
+
+.wrapper-information-text1 {
+    text-align: center;
+    color: #089c08;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.wrapper-information-text2 {
+    text-align: center;
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.wrapper-information-text3 {
+    margin-top: 10%;
+    text-align: center;
+    color: #077e07;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.wrapper-information-text4 {
+    text-align: center;
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+table {
+    margin-top: 10%;
+    min-height: 100vh;
+}
+
+.img-tecn-1 {
+    width: 150%;
+    height: 90vh;
+    margin-left: 50%;
+}
+
+.img-tecn-2 {
+    width: 150%;
+    height: 90vh;
+    margin-left: 200%;
+    margin-top: -39%;
+}
+
+.text-tecn {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    color: #077e07;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.text-tecn-1 {
+    position: absolute;
+    left: 60%;
+    top: 52%;
+    margin-top: 2%;
+}
+
+.text-tecn-2 {
+    position: absolute;
+    left: 20%;
+    bottom: 18%;
+    color: #077e07;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.text-tecn-3 {
+    position: absolute;
+    left: 14%;
+    bottom: 5%;
+    margin-top: 2%;
+}
+
+.card-preco {
+    background-color: #08c708;
+    background-image: radial-gradient(rgb(85, 247, 85) 5%, transparent 10%);
+    background-size: 5px 10px;
+
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela-preço {
+    font-size: 1.5rem;
+    position: relative;
+    left: 50%;
+    margin-bottom: 50%;
+    text-align: center;
+    text-shadow: 2px solid #fff;
+}
+
+
+.carde {
+    display: grid;
+    margin: 1rem;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit minmax(30rem, 1fr));
+    align-items: center;
+}
+
+.carde-item {
+    border: 2px solid #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.carde-item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.carde-content {
+    padding: 6rem;
+}
+
+.carde-content-p {
+    padding: 4.5rem;
+}
+
+.carde-content-t {
+    padding: 4.5rem;
+}
+
+.button-carde {
+    font-family: "Muli", serif;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #f88808;
+    padding: .5rem .7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carde-header {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.carde-text {
+    font-size: 1rem;
+    letter-spacing: 0.1;
+    line-height: 1;
+    color: #3d3d3d;
+    margin-bottom: 1rem;
+}
+
+.carde-preco-text {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: #027402;
+    text-shadow: 0 0 2px #fff;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.preco {
+    position: absolute;
+    top: 5%;
+    left: 50.2%;
+    color: #fff;
+    text-shadow: 0 0 5px #027402;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+/* Carrossel */
+div#carousel { 
+  perspective: 1200px; 
+  padding-top: 10%; 
+  font-size:0; 
+  margin-bottom: 3rem; 
+  overflow: hidden; 
+}
+figure#spinner { 
+  transform-style: preserve-3d; 
+  height: 300px; 
+  transform-origin: 50% 50% -500px; 
+  transition: 1s; 
+} 
+figure#spinner img { 
+  width: 40%; 
+  max-width: 425px; 
+  position: absolute; 
+  left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline:1px solid transparent; 
+}
+
+
+figure#spinner img:nth-child(1) { transform:rotateY(0deg); }
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+
+
+div#carousel ~ span { 
+  color: #050505; 
+  margin: 10%; 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  transition: 0.6s color; 
+  position: relative; 
+  margin-top: 1rem; 
+  border-bottom: none; 
+  line-height: 0; }
+
+
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+.sobre-nos {
+    width: 100%;
+    min-height: 80vh;
+}
+
+.section-sobre p {
+    margin-top: 3%;
+    text-align: center;
+    font-family: "Muli" serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.button-calc {
+    background-color: #f88808;
+    padding: 20px;
+}
+
+.sobre-button {
+    font-family: "Muli", serif;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+details {
+    height: 20vh;
+}
+
+summary {
+    color: green;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    height: 10vh;
+}
+
+#footer-back {
+    background-color: #00eb00;
+}
+
+#text-footer {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    position: relative;
+    left: 6px;
+}
+
+#text-footer-venda {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    position: relative;
+    left: 35px;
+    top: -40px;
+}
